@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/index.css">
+  <title>Weather Checkin App</title>
+</head>
+<body>
+  <h1>Weather Checkin App</h1>
+
+  <p id="nav">
+    <a href="index.html">Check in</a>
+    <a href="logs/index.html">View Checkins</a>
+  </p>
+
+  <p id="lat_lon">
+    <span id="latitude"></span>&deg;,&nbsp;  
+    <span id="longitude"></span>&deg;
+  </p>
+
+  <p id="weather_info">
+    The Weather here is
+    <span id="summary"></span>
+      with a temperature of <span id="temperature"></span>&deg; F
+    
+  </p>
+  <div id="measurements"></div>
+  
+  <!-- <button id="geolocate">Check In</button> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js" integrity="sha512-b/htz6gIyFi3dwSoZ0Uv3cuv3Ony7EeKkacgrcVg8CMzu90n777qveu0PBcbZUA7TzyENGtU+qZRuFAkfqgyoQ==" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>

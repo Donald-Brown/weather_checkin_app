@@ -1,0 +1,14 @@
+
+Cliacell
+https://api.climacell.co/v3/weather/forecast/daily?lat=38.0486775&lon=-87.5692364&apikey=XWhtkmvyxDWheaVJhs2qrOFHM2qr5a2W
+
+https://api.climacell.co/v3/weather/realtime?lat=38.0486775&lon=-87.5692364&fields%5B%5D=temp&fields%5B%5D=weather_code&fields%5B%5D=feels_like&fields%5B%5D=precipitation_type&apikey=XWhtkmvyxDWheaVJhs2qrOFHM2qr5a2W
+
+Open weather
+https://api.openweathermap.org/data/2.5/onecall?lat=38.0486775&lon=-87.5692364&appid=f97452ca459d8064e77b178fbb42c4d4
+
+
+https://api.openweathermap.org/data/2.5/weather?lat=38.0486775&lon=-87.5692364&units=imperial&appid=f97452ca459d8064e77b178fbb42c4d4
+
+aq api
+https://docs.openaq.org/v2/latest?limit=100&page=1&offset=0&sort=desc&coordinates=38.0486775%2C-87.5692364&radius=5000&order_by=lastUpdated&dumpRaw=false
