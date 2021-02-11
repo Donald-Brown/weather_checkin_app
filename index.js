@@ -59,7 +59,7 @@ myServer.post("/api", (req, res) => {
 
 // GET method for weather
 // use colon to add route parameters
-// const api_key = 'f97452ca459d8064e77b178fbb42c4d4'; // moved to dotenv file
+// const api_key = 'api key'; // moved to dotenv file
 const api_key = process.env.API_KEY;
 myServer.get("/weather/:latlon", async (req, res) => {
   const latlon = req.params.latlon.split(",");
