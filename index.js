@@ -11,7 +11,7 @@ require('dotenv').config();
 // build server
 const express = require("express");
 const myServer = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 //build database
 const database = new Datastore("database.db");
